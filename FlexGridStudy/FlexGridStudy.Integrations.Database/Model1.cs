@@ -1,0 +1,23 @@
+namespace FlexGridStudy.Integrations.Database
+{
+    using System;
+    using System.Data.Entity;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Linq;
+
+    public partial class Model1 : DbContext
+    {
+        public Model1()
+            : base("name=Model1")
+        {
+        }
+
+        public virtual DbSet<AWBuildVersion> AWBuildVersions { get; set; }
+        public virtual DbSet<DatabaseLog> DatabaseLogs { get; set; }
+        public virtual DbSet<ErrorLog> ErrorLogs { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+        }
+    }
+}

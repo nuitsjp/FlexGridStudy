@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexGridStudy", "FlexGridStudy\FlexGridStudy.csproj", "{5A45FF44-53DC-4F73-A19F-BDC6CB637DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexGridStudy.Usecases", "FlexGridStudy.Usecases\FlexGridStudy.Usecases.csproj", "{A915C405-919B-4ADC-ABE5-FB61BF5F84D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexGridStudy.Integrations.Database", "FlexGridStudy.Integrations.Database\FlexGridStudy.Integrations.Database.csproj", "{1530EAFE-1BEF-4B7E-BA5E-6085EDDAFCAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexGridStudy.Integrations.Entities", "FlexGridStudy.Integrations.Entities\FlexGridStudy.Integrations.Entities.csproj", "{06FCAD63-ED1F-4C8F-B9D2-4CA8EE3BB1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A45FF44-53DC-4F73-A19F-BDC6CB637DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A45FF44-53DC-4F73-A19F-BDC6CB637DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A45FF44-53DC-4F73-A19F-BDC6CB637DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A45FF44-53DC-4F73-A19F-BDC6CB637DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A915C405-919B-4ADC-ABE5-FB61BF5F84D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A915C405-919B-4ADC-ABE5-FB61BF5F84D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A915C405-919B-4ADC-ABE5-FB61BF5F84D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A915C405-919B-4ADC-ABE5-FB61BF5F84D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1530EAFE-1BEF-4B7E-BA5E-6085EDDAFCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1530EAFE-1BEF-4B7E-BA5E-6085EDDAFCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1530EAFE-1BEF-4B7E-BA5E-6085EDDAFCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1530EAFE-1BEF-4B7E-BA5E-6085EDDAFCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06FCAD63-ED1F-4C8F-B9D2-4CA8EE3BB1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FCAD63-ED1F-4C8F-B9D2-4CA8EE3BB1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FCAD63-ED1F-4C8F-B9D2-4CA8EE3BB1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FCAD63-ED1F-4C8F-B9D2-4CA8EE3BB1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B6B72ED-0570-46F1-9489-B9AFBB3C64CA}
+	EndGlobalSection
+EndGlobal
